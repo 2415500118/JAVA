@@ -1,0 +1,23 @@
+package Assignments;
+import java.util.Scanner;
+public class Palindrome {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int originalnum = num;
+        int rem = 0;
+        int reverse = 0;
+        while(num != 0 ){
+            rem = num % 10 ;
+            reverse = reverse * 10 + rem ;
+            num = num / 10 ;
+            rem = 0 ;
+        }
+        if(originalnum == reverse){
+            System.out.println("Palindrome");
+        }
+        else{
+            System.out.println("Not a Palindrome");
+        }   
+    }
+}
