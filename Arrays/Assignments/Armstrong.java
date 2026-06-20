@@ -1,4 +1,4 @@
-package Assignments;
+package Arrays.Assignments;
 
 import java.util.Scanner;
 public class Armstrong {
