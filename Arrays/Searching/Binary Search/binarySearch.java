@@ -1,4 +1,6 @@
+import java.lang.Math;
 public class binarySearch{
+
 public static void main(String[] args) {
     int[] arr = {-2, -3, 4, 5, 16, 18, 22, 45};
     int target = 22;

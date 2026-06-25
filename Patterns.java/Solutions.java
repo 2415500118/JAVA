@@ -11,8 +11,6 @@ public class Solutions {
             }
             System.out.println();
         }
-    }
-
-    
+    }   
 }
 
